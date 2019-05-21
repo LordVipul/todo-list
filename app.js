@@ -9,7 +9,7 @@ addTodoBtn.addEventListener("click", function() {
   var item = document.createElement("DIV");
   item.classList.add("item");
 
-  // checkBox    itemText    actionBtns
+  // checkBox    itemText   (editInput)   (updateBtn)   editBtn    removeBtn
 
   // checkbox
   var checkBox = document.createElement("input");
@@ -50,7 +50,7 @@ addTodoBtn.addEventListener("click", function() {
   updateBtn.textContent = "Update";
   updateBtn.type = "button";
 
-  // actions buttons are Edit and
+  // actions buttons are Edit and remove
   var actionBtns = document.createElement("DIV");
   actionBtns.classList.add("action-btns");
 
