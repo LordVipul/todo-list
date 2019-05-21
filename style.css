@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #292c44;
+}
+
+.title {
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+}
+
+.input {
+  display: flex;
+}
+
+.input-element {
+  flex: 9;
+  padding: 15px 18px;
+  border: none;
+}
+.input-btn {
+  width: 100px;
+  flex: 2;
+  padding: 15px;
+  font-weight: 900;
+  color: #242424;
+  cursor: pointer;
+  background-color: #18cdca;
+  border: none;
+}
+
+.item {
+  height: 48px;
+  display: flex;
+  padding-top: 5px;
+  background-color: #f0f0f1;
+  border-bottom: 1px dotted #d0d0d0;
+  position: relative;
+}
+
+.check-box {
+  margin: 15px;
+}
+
+.item-text {
+  margin: 15px 0;
+}
+
+.edit-input {
+  position: absolute;
+  left: 43px;
+  top: -8px;
+  margin: 15px 0;
+}
+
+.action-btns {
+  position: absolute;
+  right: 15px;
+}
+
+.action-btn {
+  height: 33px;
+  border: none;
+  color: white;
+  background-color: #4f80e1;
+  margin: 5px 5px;
+  padding: 0 20px;
+  border-radius: 500px;
+}
+
+.update-btn {
+  background-color: #13a423;
+
+  font-weight: 600;
+  border: 1px solid #137423;
+}
+
+.remove-btn {
+  background-color: #ff5349;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.completed {
+  color: #a3a3a3;
+  text-decoration: line-through;
+}
+
+.completed-item {
+  background-color: #e3f4e3;
+}
+
+.active {
+  background-color: #e3e3e3;
+  color: #242326;
+}
